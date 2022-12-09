@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#First{
+    padding: 0 4rem;
+    margin-top: 3rem;
+}
+
+#First .left{
+    width: 30%;
+    float: right;
+}
+
+#First .right{
+    width: 60%;
+}
+
+#First .left img{
+    width: 100%;
+}
+
+#First .right .box{
+    width: 23%;
+    float: right;
+    margin-right: 2%;
+}
+
+#First .right .box img{
+    width: 100%;
+}
+
+#First .right .box .top{
+    border: 1px solid #333;
+    border-radius: 5px; 
+}
+
+#First .right .box .bottom{
+    text-align: center;
+    padding: 10px 0;
+}
+#Header{
+    background-color: #333;
+    padding: 2rem 3rem;
+}
+#Header .left{
+    float: left;
+}
+#Header .right{
+    float: right;
+}
+#Header a{
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+}
+#Header a:hover{
+    transition: 0.75s;
+    color: chartreuse;
+}
